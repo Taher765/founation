@@ -1,0 +1,60 @@
+/* ================= start global ================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ============= start body ================== */
+body {
+  font-family: "PT Sans", arial, sans-serif;
+}
+/* ============= End body ================== */
+
+/* ============= start container ========= */
+.container {
+  width: 84%;
+  padding: 0 1%;
+  margin: auto;
+}
+/* ============= End container ========= */
+
+/* ============= start ul un-style ============ */
+.un-style {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* ============= End ul un-style ============ */
+
+/* ================= End global ================ */
+
+/* ============== start variables ============== */
+:root {
+  --main-color: #7b5244;
+  --sub-color: #333;
+  --padding-section: 60px 0;
+}
+/* ============== End variables ============== */
+
+/* ================== Srart componant ================= */
+.conpo {
+  text-align: center;
+}
+.conpo h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.conpo .line {
+  display: inline-block;
+  width: 140px;
+  height: 3px;
+  background-color: var(--main-color);
+  transition: 0.5s;
+  margin: 15px 0 50px 0;
+}
+.conpo:hover .line {
+  width: 170px;
+}
+/* ================== End componant ================= */
